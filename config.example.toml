@@ -1,0 +1,17 @@
+# Copy to config.toml and set the plug's address before connecting.
+host = ""
+
+# Placeholder thresholds in watts. Measure your equipment before adjusting.
+running_watts = 15.0
+stopped_watts = 8.0
+calibrated = false
+
+# Require sustained readings to arm, trigger, and clear the low-power alarm.
+arm_seconds = 30.0
+alarm_after_seconds = 20.0
+poll_seconds = 5.0
+request_timeout_seconds = 10.0
+connection_alarm_seconds = 30.0
+# Repeat console reminders at this interval; audio plays continuously.
+repeat_alarm_seconds = 10.0
+snooze_seconds = 300.0
